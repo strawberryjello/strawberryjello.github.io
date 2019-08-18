@@ -2,6 +2,7 @@
 layout: post
 title: "Learning Python 3"
 author: "Cristina Elep"
+tags: [python]
 ---
 
 Years ago I started learning Python, though I don't remember why -- it just seemed like a good idea at the time, like learning emacs. (And it was. Learning emacs, that is.) I got sidetracked when I started learning Ruby and got hired as a Rails developer instead, but now I've circled back to Python. This time I have a couple reasons why:

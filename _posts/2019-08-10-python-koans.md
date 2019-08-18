@@ -2,6 +2,7 @@
 layout: post
 title: "Python Koans, Spaced Repetition, and the Pomodoro technique"
 author: "Cristina Elep"
+tags: [python, pomodoro, 'spaced repetition']
 ---
 
 So far I've been using the following tools to learn Python 3; they seem to work well together, though I could probably fine-tune my study habits further.
