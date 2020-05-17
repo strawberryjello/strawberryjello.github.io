@@ -32,7 +32,7 @@ Since I already had Emacs, `zypper install emacs` gave me a message to that effe
 zypper install emacs-26.3-lp151.327.7.x86_64
 ```
 
-Afterwards I was prompted to install matching upgrades for emacs-info and emacs-x11. Once I was done with those, Emacs was up and running again; I still had my existing Spacemacs config at the time, and I didn't notice any breakage.
+After running this I was prompted to install matching upgrades for emacs-info and emacs-x11. Once I was done with those, Emacs was up and running again; I still had my existing Spacemacs config at the time, and I didn't notice any breakage.
 
 ## ripgrep
 
