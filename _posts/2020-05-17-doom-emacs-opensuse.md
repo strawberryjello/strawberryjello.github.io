@@ -84,8 +84,13 @@ When prompted, I chose to install all-the-icon's fonts to avoid any possible err
 
 The defaults for Doom Emacs have taken some getting used to; for instance, [Helm][helm] isn't enabled by default, so I don't have access to niceties such as `helm-show-kill-ring` (which shows you the contents of the kill ring in an easy-to-browse format, see [here][helm-show-kill-ring] for a demo). Apart from that I haven't encountered any issues, probably because I was using default Spacemacs with only a handful of active layers; I haven't had to migrate any special configurations or elisp code. I might write more on this when I try out different development environments, such as the ones for Ruby and JavaScript.
 
+## Postscript
+
+I opened a pull request that adds an openSUSE section to the Doom Emacs Getting Started guide, and it's [already been merged][doom-opensuse]. :D The steps are (quite?) different since I took Tumbleweed into account; I also learned that I could have gotten Rust 1.36.0 via zypper. Anyway I hope this will save other people a bit of time and effort.
+
 
 [doom-emacs]: https://github.com/hlissner/doom-emacs
+[doom-opensuse]: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#opensuse
 [doom-prereqs]: https://github.com/hlissner/doom-emacs#prerequisites
 [doom-install]: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org#doom-emacs
 [helm]: https://github.com/emacs-helm/helm
