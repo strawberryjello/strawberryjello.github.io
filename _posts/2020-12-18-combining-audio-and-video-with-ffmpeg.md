@@ -19,7 +19,7 @@ Here's a breakdown:
 - `-c:v copy -c:a copy` specifies that the streams will be copied into the output file instead of being re-encoded
 - `-y` (optional) overwrites output files without asking; setting this to `-n` will cause ffmpeg to exit immediately if the output file already exists
 
-See the [ffmpeg man page](ffmpeg-manpage) or the [ffmpeg documentation][ffmpeg-docs] for detailed descriptions of each option and how they're used.
+See the [ffmpeg man page][ffmpeg-manpage] or the [ffmpeg documentation][ffmpeg-docs] for detailed descriptions of each option and how they're used.
 
 Notes:
 - I also found a [SuperUser StackExchange question about re-encoding audio][ffmpeg-reencode] from MP3 to [AAC][aac]; I haven't tried the solution in the accepted answer since I don't need to. Anyway, here's an example that converts the input audio using the built-in AAC encoder:
@@ -27,9 +27,9 @@ Notes:
   ffmpeg -i input.mp3 -c:a aac output.m4a
   ```
 
-[aac][https://en.wikipedia.org/wiki/Advanced_Audio_Coding]
-[ffmpeg-answer][https://superuser.com/a/1298165]
-[ffmpeg-docs][https://ffmpeg.org/ffmpeg.html]
-[ffmpeg-manpage][http://manpages.org/ffmpeg]
-[ffmpeg-reencode][https://superuser.com/questions/370625/ffmpeg-command-to-convert-mp3-to-aac]
-[fraunhofer][https://en.wikipedia.org/wiki/Fraunhofer_FDK_AAC]
+[aac]: https://en.wikipedia.org/wiki/Advanced_Audio_Coding
+[ffmpeg-answer]: https://superuser.com/a/1298165
+[ffmpeg-docs]: https://ffmpeg.org/ffmpeg.html
+[ffmpeg-manpage]: http://manpages.org/ffmpeg
+[ffmpeg-reencode]: https://superuser.com/questions/370625/ffmpeg-command-to-convert-mp3-to-aac
+[fraunhofer]: https://en.wikipedia.org/wiki/Fraunhofer_FDK_AAC
